@@ -5,4 +5,7 @@
 - We should containerized the application to isolate from environment.
 
 - To achieve scalibility and availability we have to scale the system; the best option we opt for is Kubernetes. It provides a robust platform for managing containerized applications at scale. Its benefits include improved scalability, high availability, resource efficiency, self-healing capabilities, portability and support for implementing DevOps, Cloud and DevSecOps practices.
-- 
+
+- For the authentication purpose we should use JSONWEBTOKEN, this makes JWTs stateless, which reduces server load and simplifies scalability. It has following features:
+ 	-Compact and Efficient: Due to their compact size, JWTs are suitable for transmission over networks and are easily parsed by clients. 
+	 - Security: JWTs are digitally signed, ensuring data integrity and preventing tampering.
