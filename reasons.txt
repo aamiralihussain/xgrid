@@ -1,0 +1,8 @@
+- For this newsfeed management systems we use REST server - RESTFUL APIS. We may use NOSql database for this system becuase simple way to store data from multiple sources while using different formats. Fewer (or no) transformations are needed when the data is being stored or retrieved from storage. A large variety of data types, whether unstructured, structured, or semi-structured, can be stored in a NoSQL database. 
+
+- To achieve fault tolerance and low latency we should use Message broker system like kafka, RabbitMQ. It is used to manage communications between on-premises systems and cloud components in hybrid cloud environments. Using a message broker gives increased control over interservice communications, ensuring that data is sent securely, reliably, and efficiently between the components of an application.
+
+- We should containerized the application to isolate from environment.
+
+- To achieve scalibility and availability we have to scale the system; the best option we opt for is Kubernetes. It provides a robust platform for managing containerized applications at scale. Its benefits include improved scalability, high availability, resource efficiency, self-healing capabilities, portability and support for implementing DevOps, Cloud and DevSecOps practices.
+- 
